@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+h1 { margin-bottom: 1rem;}
 body {
   text-align: center;
   padding: 20px;
@@ -65,4 +66,9 @@ body {
 
 .slider:has(#menu3:checked) + .btn-group > label:nth-child(3) {
   background: #333;
+}
+
+/* radio 버튼 가림 */
+.slider input {
+  display: none;
 }
