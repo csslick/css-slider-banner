@@ -10,8 +10,9 @@ body {
 }
 
 .slider {
-  width: 100%;
+  max-width: 1440px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .slider .sliders {
