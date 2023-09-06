@@ -53,3 +53,16 @@ body {
   color: #fff;
   cursor: pointer;
 }
+
+/* 인디케이터 효과: 부모 선택자 활용 */
+.slider:has(#menu1:checked) + .btn-group > label:nth-child(1) {
+  background: #333;
+}
+
+.slider:has(#menu2:checked) + .btn-group > label:nth-child(2) {
+  background: #333;
+}
+
+.slider:has(#menu3:checked) + .btn-group > label:nth-child(3) {
+  background: #333;
+}
