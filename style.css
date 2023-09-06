@@ -5,13 +5,14 @@
 }
 
 h1 { margin-bottom: 1rem;}
+
 body {
   text-align: center;
   padding: 20px;
 }
 
 .slider {
-  max-width: 1440px;
+  max-width: 1200px;
   overflow: hidden;
   margin: 0 auto;
 }
